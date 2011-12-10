@@ -5,13 +5,11 @@
  *= require_self
  *= require_tree . 
 */
-
-body {
-	background: #EEEEEE;
-}
 table {
-	border-style: inset; 
+	border-style: inset;
+	background: #ffffff;
 }
+
 a {
 color: #0099CC;
 text-decoration: underline;

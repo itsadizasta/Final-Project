@@ -1,7 +1,8 @@
+<div id="displayReviews">
 <table>
   <tr>
-    <th>Rating</th>
-    <th>Content</th>
+    <th>Reviews</th>
+    <th></th>
     <th></th>
     <th></th>
     <th></th>
@@ -9,10 +10,10 @@
 
 <% @reviews.each do |review| %>
   <tr>
-    <td><%= review.rating %>/5</td>
-    <td><%= review.content %></td>
+    <td>(<%= review.rating %>/5)<br><%= review.content %></td>
     <td><%= link_to 'Show', review %></td>
   </tr>
   <tr></tr>
 <% end %>
 </table>
+</div>

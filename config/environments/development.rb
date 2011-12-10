@@ -1,4 +1,4 @@
-SampleApp110811::Application.configure do
+UserReviews::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
   # In the development environment your application's code is reloaded on

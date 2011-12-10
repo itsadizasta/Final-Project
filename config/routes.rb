@@ -1,4 +1,4 @@
-Example::Application.routes.draw do
+UserReviews::Application.routes.draw do
   resources :reviews
 
   get "home/index"

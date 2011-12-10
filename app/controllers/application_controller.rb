@@ -2,7 +2,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery
   
   def index
-    @reviews = Review.all
+    @reviews = Review.all(:order => "created_at DESC")
 
     respond_to do |format|
       format.html # index.html.erb

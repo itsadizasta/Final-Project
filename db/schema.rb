@@ -13,12 +13,12 @@
 
 ActiveRecord::Schema.define(:version => 20111210063215) do
 
-#  create_table "posts", :force => true do |t|
-#    t.integer  "rating"
-#    t.text     "content"
-#    t.datetime "created_at"
-#    t.datetime "updated_at"
-#  end
+  create_table "posts", :force => true do |t|
+    t.integer  "rating"
+    t.text     "content"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "reviews", :force => true do |t|
     t.integer  "rating"

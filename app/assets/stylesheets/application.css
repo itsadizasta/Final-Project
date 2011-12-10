@@ -5,20 +5,33 @@
  *= require_self
  *= require_tree . 
 */
-table {
-	border-style: inset;
-	background: #ffffff;
-	width: 700px;
+
+body {
+	background: url("http://www.xda-wallpapers.com/var/albums/Wallpapers/1920x1200/auto,%20black,%20trident..jpg?m=1298959200");
+	background-size: 100%;
+}
+
+#centerTitle{
+	width: 100%;
+	text-align: center;
+	color: #A00000;
+}
+
+#centerTitleNew{
+	width: 100%;
+	color: #A00000;
 }
 
 a {
 color: #0099CC;
+font-weight: bolder;
+font-size:larger;
 text-decoration: underline;
 }
 
 a:hover {
 color: #006699;
-font-weight: bolder;
+font-weight: bold;
 text-decoration: underline;
 }
 

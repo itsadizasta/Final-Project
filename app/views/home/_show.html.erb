@@ -3,21 +3,16 @@
 <table>
   <tr>
     <th>Reviews</th>
-    <th></th>
-    <th></th>
-    <th></th>
-    <th></th>
   </tr>
 
 <% @reviews.each do |review| %>
   <tr>
-    <td>(<%= review.rating %>/5)
-    	<br />
-    	<%= review.content %>
-    </td>
-    <td><%= link_to 'Show', review %></td>
+    <td id="tdBold">(<%= review.rating %>/5)</td>
   </tr>
-  <tr></tr>
+  <tr>
+  	<td><%= review.content %></td>
+  	<td><%= link_to 'Show', review %></td>
+  </tr>
   <tr></tr>
 <% end %>
 </table>

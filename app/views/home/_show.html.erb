@@ -1,0 +1,17 @@
+<table>
+  <tr>
+    <th>Rating</th>
+    <th>Content</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @reviews.each do |review| %>
+  <tr>
+    <td><%= review.rating %>/5</td>
+    <td><%= review.content %></td>
+    <td><%= link_to 'Show', review %></td>
+  </tr>
+<% end %>
+</table>

@@ -1,0 +1,23 @@
+<h1>Listing reviews</h1>
+
+<table>
+  <tr>
+    <th>Rating</th>
+    <th>Content</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @reviews.each do |review| %>
+  <tr>
+    <td><%= review.rating %>/5</td>
+    <td><%= review.content %></td>
+    <td><%= link_to 'Show', review %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+<%= link_to 'Home', root_path %> | 
+<%= link_to 'New Review', new_review_path %>

@@ -1,8 +1,12 @@
 <h1 id="leftTitle">New Review</h1>
 
-<%= render 'form' %>
+<div id="linkDIV">
+	<%= link_to "Home", root_path %><br />
+	<%= link_to "About", about_path %><br />
+	<%= link_to "Help", help_path %><br />
+	<%= link_to "Contact", contact_path %>
+</div>
 
-<%= link_to 'Home', root_path %> | 
-<%= link_to "About", about_path %> | 
-<%= link_to "Help", help_path %> | 
-<%= link_to "Contact", contact_path %>
+<div id="newDIV">
+	<%= render 'form' %>
+</div>

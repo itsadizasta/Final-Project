@@ -1,6 +1,10 @@
 <h1 id="leftTitle">Help</h1>
 
-<p id="show">Submit a review by clicking on the link on the home page. 
+<p id="show">Submit a review by clicking on the <%= link_to "Submit A Review", new_review_path %> link. 
 	Enter a number 1-5 for Rating and contents may not be blank. 
 	Click "Create Review" when finished.</p>
 
+<%= link_to 'Home', root_path %> | 
+<%= link_to "Submit A Review", new_review_path %> | 
+<%= link_to "About", about_path %> |  
+<%= link_to "Contact", contact_path %>

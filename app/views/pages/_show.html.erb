@@ -2,7 +2,7 @@
 
 <table>
   <tr>
-    <th>Reviews</th>
+    <th id="show">Reviews</th>
   </tr>
 
 <% @reviews.each do |review| %>
@@ -10,10 +10,14 @@
     <td id="tdBold">(<%= review.rating %>/5)</td>
   </tr>
   <tr>
-  	<td><%= review.content %></td>
+  	<td id="show"><%= review.content %></td>
+  </tr>
+  <tr>
   	<td><%= link_to 'Show', review %></td>
   </tr>
-  <tr></tr>
+  <tr>
+  	<td><hr></td>
+  </tr>
 <% end %>
 </table>
 </div>

@@ -14,7 +14,8 @@ p, ol, ul, td {
   color: white; }
  
 #tdBold {
-  font-weight: bold; }
+  font-weight: bold;
+  color: white; }
 
 pre {
   background-color: #eee;
@@ -57,6 +58,7 @@ div {
 #dataDIV {
   border-style: inset;
   background: #ffffff;
+  background-color: #FF3300;
   width: 800px;
   height: 500px;
   overflow:scroll;

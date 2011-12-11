@@ -1,0 +1,19 @@
+<div id="displayReviews">
+
+<table>
+  <tr>
+    <th>Reviews</th>
+  </tr>
+
+<% @reviews.each do |review| %>
+  <tr>
+    <td id="tdBold">(<%= review.rating %>/5)</td>
+  </tr>
+  <tr>
+  	<td><%= review.content %></td>
+  	<td><%= link_to 'Show', review %></td>
+  </tr>
+  <tr></tr>
+<% end %>
+</table>
+</div>

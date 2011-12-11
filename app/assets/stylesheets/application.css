@@ -15,11 +15,16 @@ body {
 	width: 100%;
 	text-align: center;
 	color: #A00000;
+	margin-bottom: 60px;
 }
 
-#centerTitleNew{
+#leftTitle{
 	width: 100%;
 	color: #A00000;
+}
+
+#linkDIV{
+	float: left;
 }
 
 a {
